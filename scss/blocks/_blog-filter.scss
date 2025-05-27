@@ -1,0 +1,15 @@
+.blog-filter {
+
+  &__form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    padding: 28px 0 0;
+    border-top: 1px solid $color-black;
+
+    @include vp-1023 {
+      gap: 12px;
+      padding-top: 32px;
+    }
+  }
+}
